@@ -21,37 +21,45 @@ for (var i = 0; i < mysecondArray.length; i++) {
 
 // DOMANDA UNO
 
-  if (domandaUno > 0 && domandaUno < mysecondArray.length) {
+  if (domandaUno >= 0 && domandaUno <= mysecondArray.length) {
+    var selezione = mysecondArray.slice(0, 5);
+  }
+
+  if (domandaUno >= 0 && domandaUno <= 4) {
     var selezione = mysecondArray.slice(0, 4);
   }
 
-  if (domandaUno > 0 && domandaUno < 4) {
+  if (domandaUno >= 0 && domandaUno <= 3) {
     var selezione = mysecondArray.slice(0, 3);
   }
 
-  if (domandaUno > 0 && domandaUno < 3) {
+  if (domandaUno >= 0 && domandaUno <= 2) {
     var selezione = mysecondArray.slice(0, 2);
   }
 
-  if (domandaUno > 0 && domandaUno < 2) {
+  if (domandaUno >= 0 && domandaUno <= 1) {
     var selezione = mysecondArray.slice(0, 1);
   }
 
 // DOMANDA DUE
 
-  if (domandaDue > 0 && domandaDue < mysecondArray.length) {
+  if (domandaDue >= 0 && domandaDue <= mysecondArray.length) {
+    var selezione = mysecondArray.slice(0, 5);
+  }
+
+  if (domandaDue >= 0 && domandaDue <= 4) {
     var selezione = mysecondArray.slice(0, 4);
   }
 
-  if (domandaDue > 0 && domandaDue < 4) {
+  if (domandaDue >= 0 && domandaDue <= 3) {
     var selezione = mysecondArray.slice(0, 3);
   }
 
-  if (domandaDue > 0 && domandaDue < 3) {
+  if (domandaDue >= 0 && domandaDue <= 2) {
     var selezione = mysecondArray.slice(0, 2);
   }
 
-  if (domandaDue > 0 && domandaDue < 2) {
+  if (domandaDue >= 0 && domandaDue <= 1) {
     var selezione = mysecondArray.slice(0, 1);
   }
 
